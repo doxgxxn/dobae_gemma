@@ -1,7 +1,7 @@
 # 도배 하자 질의 응답 처리 : 한솔데코 시즌2 AI 경진대회
 preparation
 ```
-    $ git clone ~
+    $ git clone https://github.com/doxgxxn/dobae_gemma.git
     $ cd dobae_gemma
     $ pip install -r requirements.txt
 ```
