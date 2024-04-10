@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from huggingface_hub import login
 
 load_dotenv()
-hugging_face_api = os.environ.get("HUGGIG_FACE_API")
+hugging_face_api = os.environ.get("HUGGING_FACE_API")
 login(hugging_face_api)
 
 class AIAssistant():
