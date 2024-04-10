@@ -7,7 +7,7 @@ load_dotenv()
 hugging_face_api = os.environ.get("HUGGING_FACE_API")
 login(hugging_face_api)
 
-class AIAssistant():
+class AIassistant():
     def __init__(self, model_name="google/gemma-2b-it", finetune_model="doxgxxn/dobae_gemma", temperature=0.2, top_k=50, top_p=0.95):
         """Initialize the AI assistant."""
 
